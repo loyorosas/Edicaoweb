@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+        @font-face {
+            font-family: 'sanguecongelado' ;
+            src: url('lovecraft.otf') format('opentype') ,
+            url(BloodyFrozen.ttf) format('truetype');
+        }
+        body{
+            font-family: 'sanguecongelado', sans-serif;
+        }
+    </style>
+</head>
+<h1> Exercício</h1>
+<br>
+<h2>Imagem flexível</h2>
+
+<p> você está vendo uma imagem completa?Experimente ampliar o tamanho da sua janela para aproveitar a melhor
+    experiuência.</p>
+
+<body>
+    <picture>
+        <source media="(max-width:350px)" srcset="foto3.jpg" />
+        <source media="(max-width:700px)" srcset="foto1.jpg" />
+        <!-- <source srcset="foto3.jpg" /> -->
+
+        <img src="foto2.jpg" alt="O Outono chegou!" />
+        <!-- <img src="foto3.jpg" alt="O Outono chegou" />
+        <img src="foto2.jpg" alt="O Outono chegou" /> -->
+    </picture>
+
+</body>
+
+</html>

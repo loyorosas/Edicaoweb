@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+@font-face {
+    font-family: 'idroid';
+    src: url('idroid.otf') format('opentype');
+}
+
+DSADAS
+a::after {
+    content: "\00A0\1F517";
+}
+
+nav>a::after {
+    content: none;
+}
+
+
+header {
+    width: 1191px;
+    background-image: linear-gradient(#2fa866, #1a5c37,
+            #063d1e);
+
+}
+
+header>h1 {
+    height: 63px;
+    margin: 0px 0px 20px;
+    padding-top: 20px;
+    font-size: 48px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    text-align: center;
+}
+
+header>p {
+    width: 620px;
+    height: 72px;
+    margin: 0px 285.5px;
+    padding: 0px 10px 50px;
+    font-size: 19.2px;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    width: 1191px;
+    height: 38px;
+    background-color: #063d1e;
+    border-radius: 0px 0px 20px 20px;
+    font-size: 16px;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+nav>a {
+    margin-left: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: #83e1ad;
+}
+
+main {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article>h1 {
+    height: 34px;
+    font-size: 28.8px;
+    font-family: 'idroid', cursive;
+    color: #063d1e;
+}
+
+article>h2 {
+    height: 24px;
+    background-color: lightblue;
+    font-size: 20.8px;
+    font-family: 'idroid', cursive;
+    color: #1a5c37;
+}
+
+
+article>p {
+    height: 64px;
+    margin: 15px 0px;
+    font-size: 16px;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    color: #000000;
+}
+
+strong {
+    font-size: 16px;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    color: #1a5c37;
+}
+
+a.bg {
+    font-size: 16px;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #1a5c37;
+    background-color: lightblue;
+}

@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(217, 207, 179);
+  }
+     
+  
+  h1 {
+    color:rgb(111, 56, 14);
+    margin: left 40px;
+    background-color: rgb(225, 139, 92);
+  } 
+  
+  h2{
+      color:rgb(158, 144, 130);
+      margin: left 40px;
+  }

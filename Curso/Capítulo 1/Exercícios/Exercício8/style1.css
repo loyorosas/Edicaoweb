@@ -1,0 +1,37 @@
+:root{
+    --tom1: rgba(144,40,40,0.673);
+    --tom2: rbga(244,214,46,0.673);
+    --corfundo:rgb(277,215,163);
+    --fonteBody:Arial,Helvetica,
+
+}
+body{
+    background-color: var(--corfundo);
+    font-family:var(--fonteBody);
+}
+
+main{
+    background-color:  var(--tom2);
+    max-width: 800px;
+    min-width: 900px;
+
+
+}
+div{
+    position: relative;
+    background-color: var(--tom1);
+    padding:50px 50px ;
+    margin-bottom:20px; 
+
+} 
+
+#absoluto{
+    position: absolute;
+    background-color: blue;
+    left: 10px;
+    top:10px;
+    width:90%;
+    margin: auto;
+
+
+}

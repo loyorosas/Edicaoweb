@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(217, 207, 179);
+    background-image: url("Untitled-2.png"), url("download\ \(3\).jpg");
+  }
+   
+  
+     
+  #meuid {
+    color: darkred;
+    font-weight: bold;
+    text-shadow: 3px 2px rgb(61, 151, 96)
+  }
+  .t1{
+     color: blue;
+     text-decoration:underline ; 
+     text-indent:5px;
+
+  }
+   .t2{
+    text-align:center;
+    word-spacing:2px;
+    color: rgb(160, 41, 140);
+
+   }
+
+
+  
