@@ -1,0 +1,34 @@
+        
+     style 
+        
+     
+        .containner{
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            height: 100vh;
+
+        }
+
+        body {
+
+            background-image: url(space.jpg);
+
+            background-repeat: no-repeat;
+        
+
+            background-position: center center;
+
+            background-size:cover;
+
+            background-attachment: fixed;
+
+            height: 100vh;
+
+        }
+           
+
