@@ -28,10 +28,13 @@ div{
 #absoluto{
     position: absolute;
     background-color: blue;
-    left: 10px;
-    top:10px;
+
+    left:auto;
+    right:auto;
+    top:10%;
     width:90%;
     margin: auto;
+    height: 540px;
 
 
 }
